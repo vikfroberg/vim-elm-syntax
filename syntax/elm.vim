@@ -9,6 +9,7 @@ syn keyword elmConditional else if of then case
 syn keyword elmAlias alias
 syn keyword elmTypedef contained type port
 syn keyword elmImport exposing as import module where
+syn keyword elmImport contained exposing as import module where
 
 " Operators
 syn match elmOperator contained "\([-!#$%`&\*\+./<=>\?@\\^|~:]\|\<_\>\)"
@@ -16,6 +17,10 @@ syn match elmOperator contained "\([-!#$%`&\*\+./<=>\?@\\^|~:]\|\<_\>\)"
 " Types
 syn match elmType "\<[A-Z][0-9A-Za-z_-]*"
 syn keyword elmNumberType number
+
+" Modules
+syn match elmModule "\<\([A-Z][0-9A-Za-z_'-\.]*\)\+\.[A-Za-z]"me=e-2
+syn match elmModule "^\(module\|import\)\s\+[A-Z][0-9A-Za-z_'-\.]*\(\s\+as\s\+[A-Z][0-9A-Za-z_'-\.]*\)\?\(\s\+exposing\)\?" contains=elmImport
 
 " Delimiters
 syn match elmDelimiter  "[,;]"
@@ -83,6 +88,7 @@ hi def link elmType Identifier
 hi def link elmNumberType Identifier
 hi def link elmLambdaFunc Function
 hi def link elmDebug Debug
+hi def link elmModule Type
 
 syn sync minlines=500
 
