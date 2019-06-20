@@ -1,4 +1,4 @@
-" indentation for Elm (http://elm-lang.org/)
+" indentation for Elm (https://elm-lang.org/)
 
 " Only load this indent file when no other was loaded.
 if exists('b:did_indent')
