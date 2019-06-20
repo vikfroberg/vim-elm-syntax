@@ -1,4 +1,4 @@
-" syntax highlighting for Elm (http://elm-lang.org/)
+" syntax highlighting for Elm (https://elm-lang.org/)
 
 if exists('b:current_syntax')
   finish
