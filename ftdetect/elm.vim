@@ -1,3 +1,3 @@
-" detection for Elm (http://elm-lang.org/)
+" detection for Elm (https://elm-lang.org)
 
 au BufRead,BufNewFile *.elm set filetype=elm
