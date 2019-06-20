@@ -15,10 +15,10 @@ If you don't have a preferred installation method, installing [vim-plug](https:/
 
 ### Alternative plugin managers
 
-- Vundle: `Plugin 'scrooloose/nerdtree'`
-- NeoBundle: `NeoBundle 'scrooloose/nerdtree'`
-- NeoBundle: `NeoBundle 'scrooloose/nerdtree'`
-- Pathogen: `cd ~/.vim/bundle && git clone https://github.com/scrooloose/nerdtree`
+- Vundle: `Plugin 'andys8/vim-elm-syntax'`
+- NeoBundle: `NeoBundle 'andys8/vim-elm-syntax'`
+- NeoBundle: `NeoBundle 'andys8/vim-elm-syntax'`
+- Pathogen: `cd ~/.vim/bundle && git clone https://github.com/andys8/vim-elm-syntax`
 
 ### Note about vim-polyglot
 
@@ -26,7 +26,7 @@ If you are using [vim-polyglot](https://github.com/sheerun/vim-polyglot), you ne
 
 ## Credits
 
-This repository is a fork of `ElmCast/elm-vim`.
+This repository is a fork of [`ElmCast/elm-vim`](https://github.com/ElmCast/elm-vim).
 All credits go to the authors of this repository.
 
 * Joseph Hager
