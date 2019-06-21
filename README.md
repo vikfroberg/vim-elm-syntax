@@ -12,7 +12,7 @@ Have a look at [elm-tooling/elm-vim](https://github.com/elm-tooling/elm-vim).
 
 ## Installation
 
-- Vim-Plug (recommended): `Plug 'andys8/vim-elm-syntax'`and run `:PlugInstall`
+- **Vim-Plug** (recommended): `Plug 'andys8/vim-elm-syntax'`and run `:PlugInstall`
 - Vundle: `Plugin 'andys8/vim-elm-syntax'`
 - NeoBundle: `NeoBundle 'andys8/vim-elm-syntax'`
 - Pathogen: `cd ~/.vim/bundle && git clone https://github.com/andys8/vim-elm-syntax`
