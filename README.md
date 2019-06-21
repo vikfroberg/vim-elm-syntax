@@ -5,7 +5,10 @@
 1. Syntax highlighting
 1. Automatic indentation
 
-Compiling, linting, formatting and other features aren't included in this plugin. Have a look at [elm-tooling/elm-vim](https://github.com/elm-tooling/elm-vim) to set those up.
+### Missing features
+
+Compiling, linting, formatting and other features aren't included in this plugin.
+Have a look at [elm-tooling/elm-vim](https://github.com/elm-tooling/elm-vim).
 
 ## Installation
 
