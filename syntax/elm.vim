@@ -14,7 +14,7 @@ syn keyword elmImport exposing as import module where
 syn match elmOperator contained "\([-!#$%`&\*\+./<=>\?@\\^|~:]\|\<_\>\)"
 
 " Types
-syn match elmType "\<[A-Z][0-9A-Za-z_'-]*"
+syn match elmType "\<[A-Z][0-9A-Za-z_-]*"
 syn keyword elmNumberType number
 
 " Delimiters
