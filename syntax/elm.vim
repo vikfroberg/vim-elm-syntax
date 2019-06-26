@@ -39,6 +39,9 @@ syn match elmChar "'[^'\\]'\|'\\.'\|'\\u[0-9a-fA-F]\{4}'"
 " Lambda
 syn match elmLambdaFunc /\\.*->/hs=s+1,he=e-2
 
+" Debug
+syn match elmDebug "Debug.\(log\|todo\|toString\)"
+
 " Numbers
 syn match elmInt "-\?\<\d\+\>\|0[xX][0-9a-fA-F]\+\>"
 syn match elmFloat "\(\<\d\+\.\d\+\>\)"
@@ -79,6 +82,7 @@ hi def link elmOperator Operator
 hi def link elmType Identifier
 hi def link elmNumberType Identifier
 hi def link elmLambdaFunc Function
+hi def link elmDebug Debug
 
 syn sync minlines=500
 
