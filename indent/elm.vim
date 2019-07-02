@@ -15,6 +15,7 @@ setlocal nosmartindent
 
 " Comment formatting
 setlocal comments=s1fl:{-,mb:\ ,ex:-},:--
+setlocal commentstring=--\ %s
 
 " Only define the function once.
 if exists('*GetElmIndent')
