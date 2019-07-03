@@ -43,8 +43,8 @@ syn match elmLambdaFunc /\\.*->/hs=s+1,he=e-2
 syn match elmDebug "Debug.\(log\|todo\|toString\)"
 
 " Numbers
-syn match elmFloat "-\?\(\<\d\+\.\d\+\>\)"
 syn match elmInt "-\?\<\d\+\>"
+syn match elmFloat "-\?\(\<\d\+\.\d\+\>\)"
 
 " Identifiers
 syn match elmTopLevelDecl "^\s*[a-zA-Z][a-zA-z0-9_]*\('\)*\s\+:\(\r\n\|\r\|\n\|\s\)\+" contains=elmOperator
