@@ -37,7 +37,7 @@ syn region elmTripleString start="\"\"\"" skip="\\\"" end="\"\"\"" contains=elmS
 syn match elmChar "'[^'\\]'\|'\\.'\|'\\u[0-9a-fA-F]\{4}'"
 
 " Lambda
-syn match elmLambdaFunc /\\.*->/hs=s+1,he=e-2
+syn region elmLambdaFunc start="\\"hs=s+1 end="->"he=e-2
 
 " Debug
 syn match elmDebug "Debug.\(log\|todo\|toString\)"
