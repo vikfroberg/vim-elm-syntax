@@ -9,7 +9,6 @@ syn keyword elmConditional else if of then case
 syn keyword elmAlias alias
 syn keyword elmTypedef contained type port
 syn keyword elmImport exposing as import module where
-syn keyword elmImport contained exposing as import module where
 
 " Operators
 " elm/core
