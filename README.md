@@ -1,5 +1,7 @@
 # vim-elm-syntax
 
+`vim-elm-syntax` _only_ provides syntax highlighting. Other functionality (like compiling code) is provided by [`elm-language-server`](https://github.com/elm-tooling/elm-language-server).
+
 ## Features
 
 1. Syntax highlighting
@@ -8,7 +10,7 @@
 ### Missing features
 
 Compiling, linting, formatting and other features aren't included in this plugin.
-Have a look at [elm-tooling/elm-vim](https://github.com/elm-tooling/elm-vim).
+Have a look at [elm-tooling/elm-vim](https://github.com/elm-tooling/elm-vim) for general instructions how to setup Vim with Elm.
 
 ## Installation
 
